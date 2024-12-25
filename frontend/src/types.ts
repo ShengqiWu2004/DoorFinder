@@ -29,7 +29,7 @@ export type Finder =
     id: string;
     ownerId: string;
     title: string;
-    description: string;
+    type: string;
     media: {type: 'image' | 'gif',url: string}[];
     location:{
         lat: number;
